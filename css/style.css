@@ -1,0 +1,141 @@
+/* Header */
+.tailleBlockHeader {
+    width: 1483px;
+    left:0px;
+    right: 0px;
+}
+
+.headerNav {
+    display: flex;
+    width: 100%;
+    margin-left: 5px;
+    border: 2px solid black;
+    padding: 10px 0 10px 0;
+}
+
+.widthDivHeader1 {
+    width: 75%;
+}
+
+.widthDivHeader1 p {
+    text-align: center;
+    margin-left: 30%;
+}
+.headerNav{
+    
+    padding-left: 15px;
+}
+
+.widthDivHeader2 {
+    width: auto;
+    margin:10px 0 0 0;
+}
+
+.widthDivHeader2 a {
+    padding-left: 15px;
+    display: inline;
+}
+
+/* section1 */
+.paragraphe{
+    width: 1230px;
+}
+.paragraphe p {
+    margin: 0 5px 0 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.title h1 {
+    font-size: 3em;
+    margin-top: 0px;
+}
+
+/* section2 */
+.boxFooter {
+    width: 300px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+@media screen and (min-width: 640px) and (max-width: 1255px) {
+    .tailleBlockHeader {
+        width: 1212px;
+        left: 0px;
+        right: 0px;
+    }
+    .widthDivHeader1 {
+        width: 70%;
+    }
+    
+    .widthDivHeader1 p {
+        text-align: center;
+        margin-left: 50%;
+    }
+    .banner { 
+        content: url("https://via.placeholder.com/1235x300.jpg");   
+    }
+  }
+  @media screen and (min-width: 433px) and (max-width: 640px) {
+    .tailleBlockHeader {
+        width: 1162px;
+        left: 0px;
+        right: 0px;
+    }
+    .widthDivHeader1 {
+        width: 70%;
+    }
+    
+    .widthDivHeader1 p {
+        text-align: center;
+        margin-left: 50%;
+    }
+    .banner { 
+        content: url("https://via.placeholder.com/1235x300.jpg");   
+    }
+  }
+@media screen and (min-width: 200px) and (max-width: 433px) {
+    .tailleBlockHeader {
+        width: 1133px;
+        left: 0px;
+        right: 0px;
+    }
+    .widthDivHeader1 {
+        width: 70%;
+    }
+    
+    .widthDivHeader1 p {
+        text-align: center;
+        margin-left: 50%;
+    }
+    .banner { 
+        content: url("https://via.placeholder.com/1190x300.jpg");   
+    }
+  }@media screen and (min-width: 250px) and (max-width: 321px) {
+    .section2{
+        display: flex;
+        flex-direction: column;
+        width:  100%;
+
+    }
+    .boxFooter{
+        width: 1130px;
+        height: 380px;   
+        justify-content: space-around;
+        text-align: center;
+
+
+    }
+    .boxFooter img{
+
+        content: url("https://via.placeholder.com/1120x250.jpg");
+    }
+}@media screen and (min-width: 10px) and (max-width: 249px) {
+    .boxFooter img{
+
+        content: url("https://via.placeholder.com/1000x250.jpg");
+    }
+  }

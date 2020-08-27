@@ -1,141 +1,154 @@
-/* Header */
-.tailleBlockHeader {
-    width: 1483px;
-    left:0px;
-    right: 0px;
+/* Bloc1 */
+header{
+    background-color:black ;
+    height: 100px;
 }
 
-.headerNav {
-    display: flex;
-    width: 100%;
-    margin-left: 5px;
-    border: 2px solid black;
+/* Bloc2 */
+
+.sectionTop{
     padding: 10px 0 10px 0;
+    display:flex;
+    height: 200px;
+    width: 100%;
+    background-color: white;
 }
-
-.widthDivHeader1 {
-    width: 75%;
+/* Bloc2 aside */
+.asideTop{
+    height: 85%;
+    width: 15%;
+    margin-right: 5px;
+    background-color: gray;
 }
-
-.widthDivHeader1 p {
-    text-align: center;
-    margin-left: 30%;
+.asideTop div{
+    height: 29%;
+    margin:5px;
+    background-color: white;
 }
-.headerNav{
-    
-    padding-left: 15px;
+/* Bloc2 section*/
+.sectionTop section{
+background-color: gray!important;
+height: 100%;
+width: 85%;
 }
-
-.widthDivHeader2 {
-    width: auto;
-    margin:10px 0 0 0;
-}
-
-.widthDivHeader2 a {
-    padding-left: 15px;
-    display: inline;
-}
-
-/* section1 */
-.paragraphe{
-    width: 1230px;
-}
-.paragraphe p {
-    margin: 0 5px 0 10px;
-    font-size: 1em;
-    font-weight: bold;
-}
-
-.title h1 {
-    font-size: 3em;
-    margin-top: 0px;
-}
-
-/* section2 */
-.boxFooter {
-    width: 300px;
-}
-
-.section2 {
+/* Bloc2 section double*/
+.sectionDouble{
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
+    width:100%;
+    height: 200px;
+}
+.sectionDouble div{
+width: 49%;
+background-color: gray!important;
 
 }
-@media screen and (min-width: 640px) and (max-width: 1255px) {
-    .tailleBlockHeader {
-        width: 1212px;
-        left: 0px;
-        right: 0px;
-    }
-    .widthDivHeader1 {
-        width: 70%;
-    }
-    
-    .widthDivHeader1 p {
-        text-align: center;
-        margin-left: 50%;
-    }
-    .banner { 
-        content: url("https://via.placeholder.com/1235x300.jpg");   
-    }
-  }
-  @media screen and (min-width: 433px) and (max-width: 640px) {
-    .tailleBlockHeader {
-        width: 1162px;
-        left: 0px;
-        right: 0px;
-    }
-    .widthDivHeader1 {
-        width: 70%;
-    }
-    
-    .widthDivHeader1 p {
-        text-align: center;
-        margin-left: 50%;
-    }
-    .banner { 
-        content: url("https://via.placeholder.com/1235x300.jpg");   
-    }
-  }
-@media screen and (min-width: 200px) and (max-width: 433px) {
-    .tailleBlockHeader {
-        width: 1133px;
-        left: 0px;
-        right: 0px;
-    }
-    .widthDivHeader1 {
-        width: 70%;
-    }
-    
-    .widthDivHeader1 p {
-        text-align: center;
-        margin-left: 50%;
-    }
-    .banner { 
-        content: url("https://via.placeholder.com/1190x300.jpg");   
-    }
-  }@media screen and (min-width: 250px) and (max-width: 321px) {
-    .section2{
-        display: flex;
+/* Bloc2 section triple*/
+.sectionTriple{
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width:100%;
+    height: 200px;
+}
+.sectionTriple div{
+width: 32.50%;
+background-color: gray!important;
+
+}
+
+/* Bloc2 footer triple*/
+footer{
+    background-color:black ;
+    height: 100px;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .sectionTop{
+        padding: 10px 0 10px 0;
+        display:flex;
         flex-direction: column;
-        width:  100%;
-
+        height:200px;
+        width: 100%;
+        background-color: white;
     }
-    .boxFooter{
-        width: 1130px;
-        height: 380px;   
-        justify-content: space-around;
-        text-align: center;
-
-
+    .asideTop{
+        height: 14%;
+        width:100%;
+        margin-right: 5px;
+        background-color: gray;
+        display: flex;
+        flex-direction: row;
+        padding: 0 0 10px 0;
     }
-    .boxFooter img{
-
-        content: url("https://via.placeholder.com/1120x250.jpg");
+    .asideTop div{
+        height:100%;
+        width: 15%;
+        margin:5px;
+        background-color: white;
     }
-}@media screen and (min-width: 10px) and (max-width: 249px) {
-    .boxFooter img{
-
-        content: url("https://via.placeholder.com/1000x250.jpg");
+    .sectionTop section{
+        background-color: gray!important;
+        height: 80%;
+        width: 100%;
+        margin-top:5px;
+        }
+  }
+  @media screen and (min-width: 10px) and (max-width: 767px) {
+    .sectionTop{
+        padding: 10px 0 10px 0;
+        display:flex;
+        flex-direction: column;
+        height:200px;
+        width: 100%;
+        background-color: white;
     }
+    .asideTop{
+        height: 14%;
+        width:100%;
+        margin-right: 5px;
+        background-color: gray;
+        display: flex;
+        flex-direction: row;
+        padding: 0 0 10px 0;
+    }
+    .asideTop div{
+        height:100%;
+        width: 15%;
+        margin:5px;
+        background-color: white;
+    }
+    .sectionTop section{
+        background-color: gray!important;
+        height: 80%;
+        width: 100%;
+        margin-top:5px;
+        }
+        .sectionDouble{
+            display: flex;
+            flex-flow: column;
+            width:100%;
+            height: 200px;
+        }
+        .sectionDouble div{
+        width: 100%;
+        background-color: gray!important;
+        height: 49%;
+        }
+        .sectionTriple{
+            padding: 10px 0 10px 0;
+            display: flex;
+            flex-flow: column;
+            width:100%;
+            height: 600px;
+        }
+        .sectionTriple div{
+        width: 100%;
+        height: 32.50%;
+        background-color: gray!important;
+        
+        }
   }
