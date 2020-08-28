@@ -1,0 +1,132 @@
+/* Header */
+.headerTop{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+}
+.headerTop .logo{
+    width:20%;
+    height: 100%;
+}
+.headerTop .navTop{
+    display: flex;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+}
+
+.headerTop .carts{
+    width:20%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50px;    
+}
+/* Li modification */
+
+li {
+    list-style:none !important;
+    color:black;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+    nav ul {
+        background-color:white;
+        padding:0;
+        margin:0;
+        }
+         
+        nav ul li {
+        list-style: none;
+        line-height:44px;
+        float:left;
+        background-color:white;
+        }
+         
+        nav ul li a {
+        color:black;
+        padding:10px;
+        font-size:20px;
+        text-decoration:none;
+        }
+         
+        li a:hover {
+        border-bottom:3px #FFF solid;
+        }
+        nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+         
+        nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+        z-index:99999;
+        display:list-item !important;
+        position:absolute;
+        margin-top:5px;
+        margin-left:-10px;
+        }
+         
+        nav ul li:hover ul li {
+        float:none;
+        }
+/* Section*/
+.sectionMain{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.sectionMain img{
+    width: 25%;
+}
+.sectionMain .blocPrincipalemain{
+    width: 50%;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 50px;
+    background-color:#393935 ;
+    color: white;
+}
+/* <!-- Total produits --> */
+.totalProduits1{
+    display: flex;
+}
+/* <!-- Section produits 1--> */
+.produit1{
+    width: 15%;
+    height: 100%;
+}
+.produit2{
+    width: 15%;
+    height: 100%;
+}
+.produits1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    background-color: white;
+}
+
+.produits2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+.produit{
+    width: 29%;
+    height: 100%;
+    text-align: center;
+}
+.produit img{
+    width: 100%;
+}
+/* <!-- Section produits 2--> */
+/* <!-- Total produits --> */
+.totalProduits2{
+    display: flex;
+}
