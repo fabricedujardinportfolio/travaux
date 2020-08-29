@@ -1,154 +1,176 @@
 /* Bloc1 */
-header{
-    background-color:black ;
+header {
+    background-color: black;
     height: 100px;
 }
 
 /* Bloc2 */
 
-.sectionTop{
+.sectionTop {
     padding: 10px 0 10px 0;
-    display:flex;
+    display: flex;
     height: 200px;
     width: 100%;
     background-color: white;
 }
+
 /* Bloc2 aside */
-.asideTop{
+.asideTop {
     height: 85%;
     width: 15%;
     margin-right: 5px;
     background-color: gray;
 }
-.asideTop div{
+
+.asideTop div {
     height: 29%;
-    margin:5px;
+    margin: 5px;
     background-color: white;
 }
+
 /* Bloc2 section*/
-.sectionTop section{
-background-color: gray!important;
-height: 100%;
-width: 85%;
+.sectionTop section {
+    background-color: gray !important;
+    height: 100%;
+    width: 85%;
 }
+
 /* Bloc2 section double*/
-.sectionDouble{
+.sectionDouble {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width:100%;
+    width: 100%;
     height: 200px;
 }
-.sectionDouble div{
-width: 49%;
-background-color: gray!important;
+
+.sectionDouble div {
+    width: 49%;
+    background-color: gray !important;
 
 }
+
 /* Bloc2 section triple*/
-.sectionTriple{
+.sectionTriple {
     padding: 10px 0 10px 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width:100%;
+    width: 100%;
     height: 200px;
 }
-.sectionTriple div{
-width: 32.50%;
-background-color: gray!important;
+
+.sectionTriple div {
+    width: 32.50%;
+    background-color: gray !important;
 
 }
 
 /* Bloc2 footer triple*/
-footer{
-    background-color:black ;
+footer {
+    background-color: black;
     height: 100px;
     padding-top: 10px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .sectionTop{
+    .sectionTop {
         padding: 10px 0 10px 0;
-        display:flex;
+        display: flex;
         flex-direction: column;
-        height:200px;
+        height: 200px;
         width: 100%;
         background-color: white;
     }
-    .asideTop{
+
+    .asideTop {
         height: 14%;
-        width:100%;
+        width: 100%;
         margin-right: 5px;
         background-color: gray;
         display: flex;
         flex-direction: row;
         padding: 0 0 10px 0;
     }
-    .asideTop div{
-        height:100%;
+
+    .asideTop div {
+        height: 100%;
         width: 15%;
-        margin:5px;
+        margin: 5px;
         background-color: white;
     }
-    .sectionTop section{
-        background-color: gray!important;
+
+    .sectionTop section {
+        background-color: gray !important;
         height: 80%;
         width: 100%;
-        margin-top:5px;
-        }
-  }
-  @media screen and (min-width: 10px) and (max-width: 767px) {
-    .sectionTop{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 10px) and (max-width: 767px) {
+    header {
+        display: none;
+    }
+
+    .sectionTop {
         padding: 10px 0 10px 0;
-        display:flex;
+        display: flex;
         flex-direction: column;
-        height:200px;
+        height: 200px;
         width: 100%;
         background-color: white;
     }
-    .asideTop{
+
+    .asideTop {
         height: 14%;
-        width:100%;
+        width: 100%;
         margin-right: 5px;
         background-color: gray;
         display: flex;
         flex-direction: row;
         padding: 0 0 10px 0;
     }
-    .asideTop div{
-        height:100%;
+
+    .asideTop div {
+        height: 100%;
         width: 15%;
-        margin:5px;
+        margin: 5px;
         background-color: white;
     }
-    .sectionTop section{
-        background-color: gray!important;
+
+    .sectionTop section {
+        background-color: gray !important;
         height: 80%;
         width: 100%;
-        margin-top:5px;
-        }
-        .sectionDouble{
-            display: flex;
-            flex-flow: column;
-            width:100%;
-            height: 200px;
-        }
-        .sectionDouble div{
+        margin-top: 5px;
+    }
+
+    .sectionDouble {
+        display: flex;
+        flex-flow: column;
         width: 100%;
-        background-color: gray!important;
+        height: 200px;
+    }
+
+    .sectionDouble div {
+        width: 100%;
+        background-color: gray !important;
         height: 49%;
-        }
-        .sectionTriple{
-            padding: 10px 0 10px 0;
-            display: flex;
-            flex-flow: column;
-            width:100%;
-            height: 600px;
-        }
-        .sectionTriple div{
+    }
+
+    .sectionTriple {
+        padding: 10px 0 10px 0;
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        height: 600px;
+    }
+
+    .sectionTriple div {
         width: 100%;
         height: 32.50%;
-        background-color: gray!important;
-        
-        }
-  }
+        background-color: gray !important;
+
+    }
+}
