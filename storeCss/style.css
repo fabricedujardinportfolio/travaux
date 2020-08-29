@@ -459,4 +459,18 @@ body {
     color: white;
     padding-top: 25px;
   }
+  .headerTop {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 10px) and (max-width: 147px) {
+  .carts {
+    display: none;
+  }
+  .headerTop {
+    display: flex;
+    justify-content: space-around;
+  }
 }
