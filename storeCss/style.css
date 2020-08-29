@@ -301,9 +301,15 @@ body {
     width: 70%;
   }
   .produit {
-    width: 100%;
+    width: 49%;
     height: 20%;
     text-align: center;
+  }
+  .tailleImage {
+    height: 147px;
+  }
+  .produit h2 {
+    font-size: 1em;
   }
   .headerTop .carts {
     width: 20%;
@@ -322,7 +328,7 @@ body {
     height: 360px;
   }
 }
-@media screen and (min-width: 10px) and (max-width: 200px) {
+@media screen and (min-width: 10px) and (max-width: 222px) {
   .produit h2 {
     font-size: 0.5em;
   }
@@ -424,5 +430,8 @@ body {
   }
   .carts {
     display: none;
+  }
+  .tailleImage {
+    height: 200px;
   }
 }
