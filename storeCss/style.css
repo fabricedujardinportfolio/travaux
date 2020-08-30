@@ -445,7 +445,7 @@ body {
   .carts {
   }
   .tailleImage {
-    height: 200px;
+    height: 160px;
   }
 }
 @media screen and (min-width: 10px) and (max-width: 287px) {
@@ -465,12 +465,22 @@ body {
   }
 }
 
-@media screen and (min-width: 10px) and (max-width: 147px) {
+@media screen and (min-width: 10px) and (max-width: 167px) {
   .carts {
     display: none;
   }
   .headerTop {
     display: flex;
     justify-content: space-around;
+  }
+  .sectionMain {
+    background-image: url(media/plates-header.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 480px;
   }
 }
