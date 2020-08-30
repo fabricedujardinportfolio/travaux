@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrice - Table</title>
+    <style>
+        table{
+            align-content:center;
+        }
+    </style>
+
+</head>
+<body>
+    <table BORDER="1" ALIGN="center">
+    <thead>
+        <tr>
+            <th colspan="">Nom élève</th>
+            <th colspan="">matière</th>
+            <th colspan="">Notes</th>
+            <th colspan="8">Moyen génèrale</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Paul</td>
+            <td>français</td>
+            <td>18 / 20</td>
+            <td class="noteEleve" type="Number">18</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>javascript</td>
+            <td >15 / 20</td>
+            <td  class="noteEleve" type="Number">15</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>HTML</td>
+            <td>20 / 20</td>
+            <td class="noteEleve" type="Number">20</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>PHP</td>
+            <td>19 / 20</td>
+            <td class="noteEleve" type="Number">19</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="reponse"></td>
+        </tr>
+        
+        
+    </tbody>
+    
+</table>
+<span>
+</span>
+
+<script type="text/javascript">
+
+let notes = document.querySelectorAll(".noteEleve");
+
+console.log(notes);
+
+function notesEleveFunction(a){
+    var b = a.length,
+      c = 0, i;
+  for (i = 0; i < b; i++){
+    c += Number(a[i]);
+  }
+  return c/b;
+}
+
+let result = [];
+
+for (let indexTable = 0 ; indexTable <  notes.length; indexTable++){
+    const element = notes[indexTable];
+    result.push(element.innerHTML);
+}
+document.getElementById('reponse').innerHTML = notesEleveFunction(result);
+</script>
+</body>
+</html>
