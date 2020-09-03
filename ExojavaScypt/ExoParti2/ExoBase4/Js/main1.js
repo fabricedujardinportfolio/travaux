@@ -1,7 +1,7 @@
 function deleteInput(){
   let deletInput = document.getElementsByClassName('deleteInput');
 
-  for(i=0; i < deletInput.length;i++){
+  for( i=0; i < deletInput.length ;i++){
     deletInput[i].value = null;
   }
     // document.getElementById("nom").value = null;

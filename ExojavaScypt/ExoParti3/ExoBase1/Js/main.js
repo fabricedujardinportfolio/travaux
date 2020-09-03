@@ -6,7 +6,7 @@
 
     console.log(containerImg);
 
-    containerImg.addEventListener('mouseover',borderChange());
+    containerImg.addEventListener('mouseover',borderChange);
 
 
     // console.log(event);
@@ -19,4 +19,3 @@
     // if (reponse < 18 ){
     //     window.alert('Vous êtes mineur')
     // }
-    console.log(reponse);
