@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sousContainer1{
+    width: 25%;
+    height: 100%;
+
+}
+.sousContainer2{
+    width: 50%;
+    height: 100%;
+    padding-top: 75px;    
+}
+.sousContainer2 form{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+.sousContainer3{
+    width: 25%;
+    height: 100%;
+
+}
