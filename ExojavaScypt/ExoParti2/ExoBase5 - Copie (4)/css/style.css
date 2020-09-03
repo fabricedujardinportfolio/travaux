@@ -18,6 +18,8 @@
 .sousContainer2 form{
     display: flex;
     justify-content: center;
+    flex-flow: column;
+    align-items: center;
 }
 .sousContainer3{
     width: 25%;

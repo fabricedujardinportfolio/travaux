@@ -13,8 +13,7 @@
 .sousContainer2{
     width: 50%;
     height: 100%;
-    padding-top: 75px;
-    text-align: center;        
+    padding-top: 75px;    
 }
 .sousContainer2 form{
     display: flex;
