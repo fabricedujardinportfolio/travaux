@@ -1,3 +1,0 @@
-theme bootstrap : 
-https://bootswatch.com/cosmo/ 
-https://bootsnipp.com/
