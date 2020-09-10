@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="jquery-2.2.4.js"></script>
+  <title>Exercice 2</title>
+</head>
+
+<body>
+  <img src="images/image.jpg" id="image" />
+  <div>
+    <button id="DoubleClickUp">Diminuer</button>
+    <button id="doubleClickDown">Augmenté</button></div>
+  <script>
+    $('button#DoubleClickUp').dblclick(function () {
+      $('#image').width("500px");
+    })
+    $('button#doubleClickDown').dblclick(function () {
+      $('#image').width("auto");
+    })
+  </script>
+</body>
+
+</html>
